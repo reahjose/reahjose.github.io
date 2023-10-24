@@ -8,7 +8,6 @@ body {
   max-width: 800px;
     margin: auto;
 }
-
 /* navigation menu */
 nav {
     background: rgb(21, 139, 36);
@@ -16,9 +15,7 @@ nav {
     margin-bottom: 28px;
     display: flex;
     padding: 10px;
-    border-radius: 78px;
-    
-    
+    border-radius: 78px;  
 }
 h1 {
     display: flex;
@@ -38,7 +35,6 @@ a {
     text-decoration: none;
     color: #68146b;
 }
-
 /* main container area beneath menu */
 main {
     background: rgb(91, 65, 209);
@@ -46,14 +42,10 @@ main {
 }
 .sidebar {
     margin-right: 25px;
-    padding: 10px;
-    
+    padding: 10px;  
 }
 .sidebar-img {
-    width: 200px;
-    
-    
-    
+    width: 200px;   
 }
 .content {
     flex: 1;
@@ -72,23 +64,19 @@ h2, h3 {
          .content h1 {
             color: black;
         }
-
         #portfolio {
             list-style-type: none;
             padding-left: 0;
         }
-
         #portfolio li {
             background: #fff;
             padding: 10px;
             border-radius: 10px;
             margin-bottom: 10px;
         }
-
         #portfolio li:hover {
             background: #eee;
         }
-
         #portfolio a {
             text-decoration: none;
             color: #454545;
